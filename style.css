@@ -1,17 +1,17 @@
 .container{
-    width: 600px;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
 
 } 
 .newsletter { 
-    color:gray; 
+    color:grey; 
     border-radius: 3px; 
     border:solid thin #cfcfcf; 
     padding:10px; 
     position: relative;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 } 
 .newsletter button{ 
     background-color: #3cb878; 
@@ -22,11 +22,11 @@
     height: 30px;
     margin-bottom: 10px; 
 } 
-.newsletter input { 
+.newsletter input#email { 
     display: block; 
     width: 100%; 
     height: 30px; 
-    border:solid 1px#cfcfcf; 
+    border:solid 1px #cfcfcf; 
     border-radius:3px; 
     margin-bottom:4px; 
     box-sizing: border-box; 
@@ -54,4 +54,27 @@
     position: fixed;
     bottom: 10px;
     right: 10px;
+    box-shadow: 0 0 4px 4px gray;
 }
+.card{
+    background-color: #3cb878;
+    color: white;
+    width: 1809x;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 0 7px 2px gray;
+    margin-bottom: 40px;
+}
+.card h3{
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+#card-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+      
